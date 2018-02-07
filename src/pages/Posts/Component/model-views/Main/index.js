@@ -1,6 +1,5 @@
 import React from 'react';
 import { observer } from 'mobx-react';
-import { autobind } from 'core-decorators';
 import s from './styles';
 import { Content } from '../Content';
 

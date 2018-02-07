@@ -1,9 +1,11 @@
+/* eslint-disable react/no-danger */
+
 import React, { Component } from 'react';
 import s from './styles';
 
 class Post extends Component {
-  handleOnClick() {
-  }
+  handleOnClick() { }
+
   render() {
     const { title, description } = this.props.data;
     return (

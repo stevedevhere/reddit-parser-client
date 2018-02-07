@@ -14,13 +14,13 @@ class Actions {
   }
 
   @action
-  nextPage(props) {
+  nextPage() {
     const lastId = this.store.getLastPostId();
     this.handleNextPage(lastId);
   }
 
   @action
-  prevPage(props) {
+  prevPage() {
     const firstId = this.store.getFirstPostId();
     this.handlePrevPage(firstId);
   }

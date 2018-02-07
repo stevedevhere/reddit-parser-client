@@ -11,7 +11,7 @@ import {
 } from 'react-router-dom';
 
 import relay from '../relay';
-import { PostsPage, PostPage } from '../pages';
+import { PostsPage } from '../pages';
 import s from './styles';
 
 class Root extends React.Component {
